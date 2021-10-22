@@ -1,0 +1,14 @@
+.btn-group {
+    margin-top: 20px;
+}
+
+@media (max-width: 577px) {
+    .btn-group {
+        flex-direction: column;
+        width: 100%;
+    }
+    .btn-group .btn {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
